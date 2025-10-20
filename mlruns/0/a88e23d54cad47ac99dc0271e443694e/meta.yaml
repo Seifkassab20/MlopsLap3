@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/NU/Semester%207/AIS477%20S.T/Lap3/MlopsLap3/mlruns/0/a88e23d54cad47ac99dc0271e443694e/artifacts
+end_time: 1760986163515
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a88e23d54cad47ac99dc0271e443694e
+run_name: RandomForest_Tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760986157987
+status: 4
+tags: []
+user_id: saifk

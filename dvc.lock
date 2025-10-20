@@ -1,0 +1,50 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python preprocess.py
+    deps:
+    - path: data/loan_approval.csv
+      hash: md5
+      md5: c87e9a255ab406d5c0c6276297397dfa
+      size: 115793
+    - path: preprocess.py
+      hash: md5
+      md5: 4be0030c030bfdb5156add8cece92df5
+      size: 803
+    outs:
+    - path: data/train.csv
+      hash: md5
+      md5: d5eedcd8a67586efe61cb353f8ab8a87
+      size: 76105
+  train:
+    cmd: python train.py
+    deps:
+    - path: data/train.csv
+      hash: md5
+      md5: d5eedcd8a67586efe61cb353f8ab8a87
+      size: 76105
+    - path: train.py
+      hash: md5
+      md5: 18e9fdddde70fb46786565e0db1fbef3
+      size: 456
+    outs:
+    - path: models/random_forest.pkl
+      hash: md5
+      md5: 953ba34ce7a8b77baf4ef0b6f24b3940
+      size: 141721
+  tune:
+    cmd: python tune.py
+    deps:
+    - path: data/train.csv
+      hash: md5
+      md5: d5eedcd8a67586efe61cb353f8ab8a87
+      size: 76105
+    - path: tune.py
+      hash: md5
+      md5: 4b0910cca0341bdeef10f59a98167a7b
+      size: 1865
+    outs:
+    - path: models/best_model.pkl
+      hash: md5
+      md5: 4df5c0b56e22e063cce02eb00fc9a9f1
+      size: 48441

@@ -1,0 +1,10 @@
+artifact_location: file:///D:/NU/Semester%207/AIS477%20S.T/Lap3/MlopsLap3/mlruns/0/models/m-0e864322fd8441d7a3337ff8ef9ef979/artifacts
+creation_timestamp: 1760985959487
+experiment_id: '0'
+last_updated_timestamp: 1760985970640
+model_id: m-0e864322fd8441d7a3337ff8ef9ef979
+model_type: null
+name: best_model
+source_run_id: 8b0f3bee77ca4a1fadbaba52eb883b92
+status: 2
+status_message: null

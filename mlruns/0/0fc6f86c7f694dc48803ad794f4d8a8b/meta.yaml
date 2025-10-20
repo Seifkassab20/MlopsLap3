@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/NU/Semester%207/AIS477%20S.T/Lap3/MlopsLap3/mlruns/0/0fc6f86c7f694dc48803ad794f4d8a8b/artifacts
+end_time: 1760986229578
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0fc6f86c7f694dc48803ad794f4d8a8b
+run_name: n=50_depth=3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760986229456
+status: 3
+tags: []
+user_id: saifk
